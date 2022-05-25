@@ -1,5 +1,36 @@
+# Incoming updates: 
+
+### Home Page
+
+- Add a scrolling 'news' or 'blog topic' section in header
+- Connect .PHP and mailto: 
+- Add CSS box hoverover pictures
+
+### About Me page
+
+- Add cover photo
+- Fill in sections
+- Change nav menu to 'Projects'
+
+### CV Page
+
+- Add HTML format 
+
+### Projects Page
+
+- Add tracker
+- Add Case Photos
+- Add Slideshow (Iframe?)
+- Set outline for 'Lease v. Buy' project
+
+<hr>
+
+# Credit Given
+
 Phantom by HTML5 UP
+
 html5up.net | @ajlkn
+
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
