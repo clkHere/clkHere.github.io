@@ -3,25 +3,12 @@
 ### Home Page
 
 - Add a scrolling 'news' or 'blog topic' section in header
-- Connect .PHP and mailto: 
-- Add CSS box hoverover pictures
 
 ### About Me page
 
-- Add cover photo
-- Fill in sections
-- Change nav menu to 'Projects'
-
 ### CV Page
 
-- Add HTML format 
-
 ### Projects Page
-
-- Add tracker
-- Add Case Photos
-- Add Slideshow (Iframe?)
-- Set outline for 'Lease v. Buy' project
 
 <hr>
 
