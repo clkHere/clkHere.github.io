@@ -1,0 +1,424 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio of Calvin King</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript> 
+        <style>
+            .myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+        </style>       
+	</head>
+
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/ckLogo.PNG" alt="" /></span><span class="title">Calvin King</span><br><h4 align="center"><a style="color: #5275ff;" href="cases.html">Back to Portfolio</a></h4>
+                                    <br>
+                                    <span class="images"><img width="100%" src="images/CaseImages/case_atliq/atliq_cover.png"/></span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Explore</h2>
+						<ul>
+                            <li><a href="index.html">Home</a></li>
+							<li><a href="about_me.html">About Me</a></li>
+							<li><a href="resume.html">CV</a></li>
+							<li><a href="cases.html">Projects</a></li>
+							<!--<li><a href="elements.html">Contact</a></li>-->
+						</ul>
+					</nav>
+
+                    <!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>  
+                                <!--Graphic-->                              
+								
+								<h2 align="center" style="padding: 0px; margin: 0px">Converting <span style="color:purple">Static </span>Reports into <span style="color:purple">Dynamic</span> Dashbaords</h2>
+								<h5 align="center"><a style="color: #5275ff;" href="https://github.com/clkHere/Data-Analysis/tree/main/1.%20Portfolio/f.%20SQL_Cases/a.%20Atliq%20Hardware" target="_blank" rel="noopener noreferrer">Repository</a> | 
+                                    <a style="color: #5275ff;" href="https://www.canva.com/design/DAFFKFW6QgA/eW0qudt36al77B-pFdYGbQ/view?utm_content=DAFFKFW6QgA&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent" target="_blank" rel="noopener noreferrer">Slideshow</a> | 
+                                    <a style="color: #5275ff;" href="https://public.tableau.com/views/AtliQDashboard/Snapshot?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer">Tableau Dasboard</a> </h5>
+							<hr>
+								<h3 align="center">Content Overview</h3>
+                                <!-- Adjust the anchor points in this section -->
+                                <ol><b>
+                                  <li><a href="#p1">Presentation</a></li>
+                                    <li><a href="#p2">Background</a></li>
+                                    <li><a href="#p3">Business Request & User Stories</a></li>
+                                    <!--<li>Data Integrity & Security</li>-->
+                                    <li><a href="#p4">Data Cleaning & Transformation (SQL)</a></li>
+                                    <!--<li>Exploratory Data Analysis</li>-->
+                                    <!--<li>Data Analysis</li>-->
+                                    <!--<li>Data Migration</li>-->
+                                    <li><a href="#p5">Data Modeling</a></li>
+                                    <li><a href="#p6">Final Dashboard</a></li>
+                                    <!--<li>Insights & Conclusions</li>-->
+                                    <!--<li>Next Steps</li>-->
+                                </b></ol>
+								<hr>
+                            </header>
+				
+                            <!-- Adjust the anchor references in this section -->
+              <h1 id="p1" align="center">Presentation</h1>
+				<!-- [Canvas or other presentation goes here in an IFRAME]-->
+                <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFFKFW6QgA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https://public.tableau.com/views/AtliQDashboard/Snapshot?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener">Check out the <span style="color:blue">Tableau Dashboard Here</span>.</a>
+							
+							<hr>
+                            <hr>
+                            <h1 id="p2" align="center">Background</h1>
+                            <div style="line-height:2em"><p><b>AtliQ Hardware</b> is a hardware company based out of New Delhi India and services clients through its regional offices located throughout the country.
+                                            <br><br>The company primarily sells computer hardware and peripherals to Indian electronic stores across three major zones: <b>Central, North, and South</b> India.
+                                            <br><br>The <b>Sales Director </b>, Stephen A., desires immediate feedback from his reports to make actionable decisions. He currently relies on static reports that are provided
+                                            to him by his regional managers and requests a system that provides an accurate, timely, and reliable overview of the business.</p></div>
+
+                            <hr style="color:purple;">
+                                            <h1 id="p3" align="center">Business Request & User Stories</h1>
+                                              <h4><ins><b>Stakeholders:</b></ins></h4>
+                                              <ul>
+                                                <li><b>Sales Director</b> | Wants an improved reporting process with real-time insights.</li>
+                                                <li><b>Regional Managers</b> | Wants a reduction in manual entry.</li>
+                                                <li><b>Sales Representatives</b> | Wants quicker access to customer data. (<i>Marketing & Customer service want this too.</i>)</li>
+                                                <li><b>IT Team</b> | Don't want me messing up their system!</b></li>
+                                              </ul>
+
+					      
+                                              <div style="width:100%; font-size:80%; text-align:left;"><span class="image">
+								 <img width=100% src="images/CaseImages/case_atliq/AIM_grid.png" alt="Graphic of model used in Stakeholder req development" style="padding-bottom:0.5em; border-radius:50px;" class="myImg"/> AIMS grid outlining the purpose, stakeholders, end results, and success criteria
+												 </span></div></p>
+
+                        <!--<h1 align="center">Data Integrity & Security</h1>
+                        <p>[Summary of Integrity & Secrity Checks]</p>-->
+<hr>
+                            <h1 id="p4" align="center">Data Cleaning & Transformation using SQL</h1>
+                                              <p>The company's IT team managed the OLAP RDBMS and permitted queries but did not allow me to 'update' or 'delete' activity. MySQL was used to test and explore the data prior to connecting the RDBMS to Tableau BI for analysis. Here are the results:<br>                                              
+                                              <ul>
+                                                <li>The database managed by the IT team consisted of <b>5 tables</b> made up of <b>customers, date, products, transactions</b>, and <b>markets</b>.</li>
+                                                <li>The data covered all transactions from <b>October 2017</b> to <b>June 2020</b>.</li>
+                                                <li>Inconsistent Data included <b>monetary conversions</b> and <b>missing market codes</b>; Currency was converted and missing markets were dropped in the modeling phase.</li>
+                                                <li><b>Data Exploration</b> was performed in <b>MySQL</b> and found the following:</li>
+                                                <ul style="list-style-type:circle;"><ul style="list-style-type:circle;">
+                                                    <li>2020 revenues were <b style="color:red;">-58%</b> less than 2019 revenues</li>
+                                                    <li>2020 YTD revenues for January were <b style="color:red;">-45%</b> less than January 2018 and <b style="color:red;">-19%</b> less than January 2019</li>
+                                                    <li>Dehli stores made up more than 50% of all total revenue</li>                                                    
+                                                    <li>I hypothesize that the <ins>COVID-19 pandemic</ins> may have impacted AltiQ's revenues</li>
+                                                </ul></ul>
+                                              </ul>
+                                              </p>
+
+                                              <table bordercolor="black" align="center">
+                                                <tr>
+                                                    <th colspan="3" style="text-align:center; font-size:x-large;">Exploratory Queries<br><span style="font-size:small">(click images to enlarge)</span></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th style="text-align:center;">Transaction Query</th>
+                                                        <th style="text-align:center;">2020 Performance Query</th>
+                                                        <th style="text-align:center;">Year-over-Year Analysis Query</th>
+                                                    </tr>
+                                                    
+                                                    <td>
+                                              <div style="width:100%; font-size:80%; text-align:left;">
+                                                <span class="image">                                                
+                                                <img width=100% src="images/CaseImages/case_atliq/atliq_mySQL_2020Transactions.PNG" alt="Query for all 2020 transactions" style="padding-bottom:0.5em; text-align:center; border:3px solid lightblue;
+                                                border-radius: 10px; box-shadow: 0 5px 10px #919191;" class="myImg"/>
+									            </span>
+                                              </div></td><!--<br>-->
+
+                                              <td>
+                                              <div style="width:100%; font-size:80%; text-align:left;">
+                                                <span class="image">                                                
+                                                <img width=100% src="images/CaseImages/case_atliq/atliq_mySQL_2020Revenue.PNG" alt="Query for all 2020 revenue" style="padding-bottom:0.5em; text-align:center; border:3px solid lightblue;
+                                                border-radius: 10px; box-shadow: 0px 5px 10px #919191;"  class="myImg"/>
+									            </span>
+                                              </div></td><!--<br>									-->
+                                              
+                                              <td>
+                                              <div style="width:100%; font-size:80%; text-align:left;">
+                                                <span class="image">                                                
+                                                <img width=100% src="images/CaseImages/case_atliq/atliq_mySQL_2020JanSales.PNG" alt="Query for YoY growth" style="padding-bottom:0.5em; text-align:center; border:3px solid lightblue;
+                                                border-radius: 10px; box-shadow: 0px 5px 10px #919191;" class="myImg"/>
+									            </span>
+                                              </div>
+                                            </td>
+                                            </table>
+                                              
+                                              
+                                              
+                                              
+                                              <!--<h1 align="center">Exploratory Data Analysis</h1>
+                                                <p>[Summary of EDA]</p>
+                                                <pre><code>[Code Snippets]</code></pre>-->
+                        
+						                    <!--<h1 align="center">Data Analysis</h1>
+                                                <p>[Summary of Data Analysis]</p>
+                                                <pre><code>[Code Snippets]</code></pre>-->
+
+                                            <!--<h1 align="center">Data Migration</h1>
+                                                <p>[Summary of Data Migration]</p>-->
+								
+                                              
+                            <h1 id="p5" align="center">Data Modeling</h1>
+                                              <p>Below is the data model that was constructed after the tables were cleansed and loaded into Tableau:</p>                                              
+                            
+                                              <div style="width:100%; font-size:80%; text-align:left;">
+                                                <span class="image">                                                
+                                                <img width=100% src="images/CaseImages/case_atliq/atliq_Modeling.PNG" alt="Modeling Image 1" style="padding-bottom:0.5em; text-align:center; border:1.5px solid black;
+                                                border-radius: 10px; " class="myImg"  /><b>Data Model once imported into Tableau</b>
+									            </span>
+                                              </div>
+<hr>
+                            <h1 id="p6" align="center">Final Dashboard</h1>
+                                              <div style="line-height:2em"><p>The final dashboard meets Stephen's needs by allowing him to retrieve up-to-date reports at his convenience.<br><br>
+                                              The dashboards also provide all users with dynamic and responsive insights into <b>AtliQ's</b> key metrics by regions, markets, customers, and products. Users can now track sales over time, compare it to goals, and quickly drill down into opportunities to target key accounts. The full interactive dashboard can be found 
+                                                <a href="https://public.tableau.com/views/AtliQDashboard/Snapshot?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener noreferrer""><span style="color:blue";><b>HERE</b></span></a></p></div>
+                                              
+                                              <!--Table to hold picture-->
+                                              <table bordercolor="black" align="center">
+                                                <tr>
+                                                    <th colspan="3" style="text-align:center; font-size:x-large;">Final Dashboards<br><span style="font-size:small">(click images to enlarge)</span></th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th style="text-align:center;">Main Dashboard</th>
+                                                        <th style="text-align:center;">Executive Dashboard</th>
+                                                        <th style="text-align:center;">Sales Rep Dashboard</th>
+                                                    </tr>
+                                                    
+                                                    <td>
+                                              <div style="width:100%; font-size:80%; text-align:left;">
+                                                <span class="image">                                                
+                                                <img width=100% src="images/CaseImages/case_atliq/atliq_FinalDashboard.PNG" alt="Main dashboard for Regional Managers" style="padding-bottom:0.5em; text-align:center; border:3px solid lightblue;
+                                                border-radius: 10px; box-shadow: 0 5px 10px #919191;" class="myImg"/>
+									            </span>
+                                              </div></td><!--<br>-->
+
+                                              <td>
+                                              <div style="width:100%; font-size:80%; text-align:left;">
+                                                <span class="image">                                                
+                                                <img width=100% src="images/CaseImages/case_atliq/atliq_FinalDashboard2.PNG" alt="Executive dashboard for Stephen" style="padding-bottom:0.5em; text-align:center; border:3px solid lightblue;
+                                                border-radius: 10px; box-shadow: 0px 5px 10px #919191;"  class="myImg"/>
+									            </span>
+                                              </div></td><!--<br>									-->
+                                              
+                                              <td>
+                                              <div style="width:100%; font-size:80%; text-align:left;">
+                                                <span class="image">                                                
+                                                <img width=100% src="images/CaseImages/case_atliq/atliq_FinalDashboard3.PNG" alt="Sales rep dashboard for all reps" style="padding-bottom:0.5em; text-align:center; border:3px solid lightblue;
+                                                border-radius: 10px; box-shadow: 0px 5px 10px #919191;" class="myImg"/>
+									            </span>
+                                              </div>
+                                            </td>
+                                            </table>
+
+									
+                            <hr>
+                            <h4 align="center"><a style="color: #5275ff;" href="cases.html">Back to Portfolio</a></h4>
+                        </div>
+                        </div>
+
+                        <!-- Footer (control #menu)-->
+            <footer id="footer">
+                <div class="inner">
+                    <!--<section>
+                        <h2>Get in touch</h2>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field half">
+                                    <input type="text" name="name" id="name" placeholder="Name" />
+                                </div>
+                                <div class="field half">
+                                    <input type="email" name="email" id="email" placeholder="Email" />
+                                </div>
+                                <div class="field">
+                                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send" class="primary" /></li>
+                            </ul>
+                        </form>
+                    </section>-->
+                    <section>
+                        <h2>Follow</h2>
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/expCalvinKing" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>																											
+                            <li><a href="https://www.github.com/clkHere/Data-Analysis" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>									
+                            <li><a href="mailto:mrcking88@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                        </ul>
+                    </section>
+                    <ul class="copyright">
+                        <li>&copy; Calvin King 2022. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>
+
+    </div>
+
+    <!-- // Popup Modal -->
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+  
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+  
+
+<!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+        <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+//Go through all of the images with our custom class
+for (var i=0; i<img.length; i++) {
+    var images=img[i];
+    images.onclick = function(evt) {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        modalImg.alt = this.alt;
+        captionText.innerHTML = this.alt;
+}
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+        </script>
+
+</body>
+</html>
